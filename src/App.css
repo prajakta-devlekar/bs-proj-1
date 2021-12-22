@@ -1,0 +1,31 @@
+:root{
+    --mainDark: #343a40;
+    --mainGrey:rgba(109,109,109);
+    --mainLightGrey:rgba(172,172,172);
+    --mainWhite:#fff;
+    --mainLightestGrey:rgba(255, 255, 255, 0.781);
+    --mainBlue:#007bff;
+    
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+.navbar-toggler{
+    border:none;
+}
+.customcard{
+    transition: transform .2s;
+
+}
+.customcard:hover{
+    transform: scale(1.05);
+}
+.card-supervisor::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background-color: orange;
+    width: 100%;
+
+}
