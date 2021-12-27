@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {InfoConsumer} from './Context'
 import styled from 'styled-components';
 import Reviews from './Reviews';
+import img1 from '../assets/images/tretyakovka.jpg'
 class Details extends Component {
     render() {
     return (
@@ -60,7 +61,7 @@ class Details extends Component {
                             <div className="tab-pane fade show active" id="aboutus" role="tabpanel" aria-labelledby="about-us">
                             <h2 className='mb-3'>{headerTitle}</h2>
                                     <p>{description}</p>
-                                    <img src={img} alt={title} className='img-thumbnail img-fluid'></img>
+                                    <img src={img1} alt={title} className='img-thumbnail img-fluid'></img>
                             </div>
                             <div className="tab-pane fade text-start" id="review" role="tabpanel" aria-labelledby="reviews">
                                  <Reviews/>
