@@ -3,13 +3,14 @@ import React from 'react'
 
 function Contact() {
     return (  
+      <div className="container">
 <div className="contact3 py-5">
-  <div className="row no-gutters">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-5 ms-5 me-5">
-          <div className="card-shadow">
-            <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/2.jpg" class="img-fluid" alt='img'/>
+
+ 
+      <div className="row ">
+        <div className="col-lg-5 ms-5">
+          <div className="card-shadow text-center" style={{width:'80%'}}>
+            <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/2.jpg" className="img-fluid" alt='img' />
           </div>
         </div>
         <div className="col-lg-6">
@@ -93,7 +94,7 @@ function Contact() {
         </div>
       </div>
     </div>
-  </div>
+ 
 </div>
     )
 }
