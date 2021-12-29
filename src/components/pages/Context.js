@@ -17,7 +17,7 @@ const InfoContext=React.createContext();
      }
 
      getItem=(id)=>{
-         const item=this.state.placeInfo.find(item=>item.id==id);
+         const item=this.state.placeInfo.find(item=>item.id===id);
          return item;
      }
      handleDetail=id=>{
@@ -37,7 +37,6 @@ const InfoContext=React.createContext();
                reviews:this.state.reviews,
                news:this.state.news,
                detailInfo:this.state.detailInfo,
-                reviews: this.state.reviews,
                 maps: this.state.maps,
                 headerTitle: this.state.headerTitle,
                 headerSubTitle: this.state.headerSubTitle,

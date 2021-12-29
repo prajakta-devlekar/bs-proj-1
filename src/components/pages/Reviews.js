@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { InfoConsumer, InfoProvider } from './Context'
+import { InfoConsumer } from './Context'
 import ReviewCard from '../pages/ReviewCard'
 
 class Reviews extends Component {

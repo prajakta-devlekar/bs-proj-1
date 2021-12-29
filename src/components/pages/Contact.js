@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+
 
 function Contact() {
     return (  
@@ -9,7 +9,7 @@ function Contact() {
       <div className="row">
         <div className="col-lg-5 ms-5 me-5">
           <div className="card-shadow">
-            <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/2.jpg" class="img-fluid"/>
+            <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/2.jpg" class="img-fluid" alt='img'/>
           </div>
         </div>
         <div className="col-lg-6">
@@ -50,7 +50,7 @@ function Contact() {
               <div className="col-lg-4 col-md-4">
                 <div className="card-body d-flex align-items-center  c-detail">
                   <div className="mr-3 align-self-center">
-                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon1.png"/>
+                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon1.png" alt='img'/>
                   </div>
                   <div className="">
                     <h6 className="font-weight-medium">Address</h6>
@@ -62,7 +62,7 @@ function Contact() {
               <div className="col-lg-4 col-md-4">
                 <div className="card-body d-flex align-items-center c-detail">
                   <div className="mr-3 align-self-center">
-                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon2.png"/>
+                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon2.png"alt='img'/>
                   </div>
                   <div className="">
                     <h6 className="font-weight-medium">Phone</h6>
@@ -74,7 +74,7 @@ function Contact() {
               <div className="col-lg-4 col-md-4">
                 <div className="card-body d-flex align-items-center c-detail">
                   <div className="mr-3 align-self-center">
-                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon3.png"/>
+                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon3.png"alt='img'/>
                   </div>
                   <div className="">
                     <h6 className="font-weight-medium">Email</h6>
@@ -87,7 +87,7 @@ function Contact() {
               </div>
             </div>
              <div className='col- d-flex justify-content-center'>
-                   <iframe src="https://www.google.com/maps/d/u/0/embed?mid=17btSKuZes00ZEgVHdvBUwy0OlNO706Zx&ehbc=2E312F" width="840" height="580"></iframe>
+                   <iframe src="https://www.google.com/maps/d/u/0/embed?mid=17btSKuZes00ZEgVHdvBUwy0OlNO706Zx&ehbc=2E312F" width="840" height="580" title='maps'></iframe>
                    </div> 
           </div>
         </div>

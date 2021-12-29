@@ -10,7 +10,7 @@ class Details extends Component {
             {
                 data=>{
                     const{
-                        id, headerText,headerTitle,headerSubTitle,img,description,title,maps
+                         headerText,headerTitle,headerSubTitle,description,title,maps
                     }=data.detailInfo;
                     return (
                         <React.Fragment>
@@ -67,7 +67,7 @@ class Details extends Component {
                                  <Reviews/>
                             </div>
                             <div className="tab-pane fade mt-3" id="map" role="tabpanel" aria-labelledby="maps">
-                            <iframe src={maps} style={{width:'80%', border:'0', height:'500px', frameborder:'0'}}></iframe>
+                            <iframe src={maps} title='maps' style={{width:'80%', border:'0', height:'500px', frameborder:'0'}}></iframe>
                             </div>
                             </div>
                             </div>
